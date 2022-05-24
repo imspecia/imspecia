@@ -1,8 +1,9 @@
 /* CSS file for making grids */
+@charset "UTF-8";
 
-h1{
+/*h1{
 	font-size: 100px;
-}
+}*/
 
 .grid {
 	border:  1px solid black;
@@ -11,9 +12,18 @@ h1{
 	height: 250px;
 	grid-template-columns: 50px 50px 50px 50px 50px;
 	grid-template-rows: 50px 50px 50px 50px 50px;
+	margin: 10px;
 }
 
-.grid-iem {
+.grid-item {
 	border:  1px solid black;
-	
+
+}
+
+.grid-item-black {
+	background-color: black;
+}
+
+.grid-item-black:hover{
+	background-color: aliceblue;
 }
