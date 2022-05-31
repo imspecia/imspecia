@@ -13,6 +13,8 @@
 	grid-template-columns: 30px 30px 30px 30px 30px ;
 	grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
 	margin: 10px;
+	position: relative;
+	float: left;
 }
 
 .grid-item {
@@ -27,3 +29,8 @@
 	background-color: lightpink;
 }
 
+
+.float-container {
+	3px solid #fff;
+	padding: 20px;
+}
