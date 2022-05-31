@@ -28,7 +28,7 @@ body {
 }
 
 .flip span {
-  font-family:'Sofia Pro', light;
+  font-family:'Sofia Pro';
   position: relative;
   display: inline-block;
   font-size: 100px;
