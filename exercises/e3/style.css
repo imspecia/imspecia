@@ -28,7 +28,7 @@ body {
 }
 
 .flip span {
-  font-family:venn, sans-serif, bold;
+  font-family:'Sofia Pro', light;
   position: relative;
   display: inline-block;
   font-size: 100px;
@@ -81,7 +81,7 @@ body {
 }
 
 .wobble span {
-  font-family: 'Sofia Pro', light;
+  font-family: venn, sans-serif, bold;
   position: relative;
   display: inline-block;
   color: cadetblue;
