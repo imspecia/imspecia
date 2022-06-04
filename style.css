@@ -18,15 +18,19 @@
 }
 
 .grid-item {
-	background-color: white;
+	background-color: #F0F0F0;
 }
 
 .grid-item-black {
-	background-color: black;
+	background-color: #21325E;
 }
 
 .grid-item-black:hover{
-	background-color: lightpink;
+	background-color: #3E497A;
+}
+
+.grid-item:hover{
+	background-color: #F1D00A;
 }
 
 
