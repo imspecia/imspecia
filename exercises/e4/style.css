@@ -20,6 +20,7 @@ h2{
   margin-left: 100px;
 }
 
+/** container to make two columns **/
 .column{
   float: left;
   width: 50%;
@@ -36,6 +37,8 @@ h2{
   padding: 10px;
   text-align: center;
 }
+
+/** general button css for links **/
 
 .button {
   background-color: slateblue;
@@ -57,6 +60,8 @@ h2{
 
 }
 
+/** BTS Logo **/
+
 .bangtan {
   padding-top: 3rem;
   display: flex;
@@ -64,6 +69,8 @@ h2{
   height: 90vh;
   position: relative;
 }
+
+/** "WELCOME TO THE WORLD OF BTS" Styling text **/
 
 .text {
   text-align: left;
