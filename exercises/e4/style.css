@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -13,9 +15,9 @@ h2{
 }
 
 .header {
-  padding: 30px;
   text-align: center;
   font-size: 35px;
+  margin-left: 100px;
 }
 
 .column{
@@ -53,4 +55,26 @@ h2{
   background-color: #c2bbe9;
   font-family: Verdana, sans-serif;
 
+}
+
+.bangtan {
+  padding-top: 3rem;
+  display: flex;
+  width: 15vw;
+  height: 90vh;
+  position: relative;
+}
+
+.text {
+  text-align: left;
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-size: 50px;
+  font-color: black;
+  padding-right: 100%;
+  position: absolute;
+  top: 25%;
+  left: 24.4%;
+  font-family: "Teko", sans-serif;
+  margin-left: 14px;
 }
