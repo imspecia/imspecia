@@ -1,0 +1,30 @@
+body {
+  padding: 25px;
+  background-color: #453A36;
+  color: white;
+  font-size: 25px;
+}
+
+.light-mode {
+  background-color: whitesmoke;
+}
+
+.light-mode #seconds {
+  font-size: 2em;
+  color: black;
+}
+
+.light-mode #minutes {
+  font-size: 2em;
+  color: black;
+}
+
+.light-mode #colon {
+  font-size: 2em;
+  color: black;
+}
+
+.light-mode #text {
+  font-size: 1em;
+  color: black;
+}

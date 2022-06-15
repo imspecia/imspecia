@@ -1,0 +1,226 @@
+@keyframes rotateE {
+  8% {transform: translate(60px, 0);}
+  12% {transform: translate(0, 0);}
+  20% {transform: translate(0, 50px);}
+  28% {transform: translate(30px, 50px);}
+  36% {transform: translate(0, 50px);}
+  50%{transform: translate(0, 100px);}
+  67%{transform: translate(60px, 100px);}
+  83%{transform: translate(0, 100px);}
+  100%{transform: translate(0,0);}
+}
+
+@keyframes rotateL {
+  12.5%{transform: translate(0, 100px);}
+  50%{transform: translate(60px, 100px);}
+  75%{transform: translate(0, 100px);}
+  100%{transform: translate(0,0);}
+}
+
+@keyframes rotateM {
+  8%{transform: translate(0, 100px);}
+  12.5%{transform: translate(0,0);}  
+  20%{transform: translate(30px, 50px);} 
+  30%{transform: translate(60px, 0);}
+  50%{transform: translate(60px, 100px);} 
+  65%{transform: translate(60px, 0);} 
+  75%{transform: translate(30px, 50px);}
+  100%{transform: translate(0,0);}
+}
+
+@keyframes rotateN {
+  8%{transform: translate(0, 100px);}
+  12.5%{transform: translate(0, 0);}  
+  30%{transform: translate(60px, 100px);} 
+  50%{transform: translate(60px, 0);} 
+  65%{transform: translate(60px, 100px);} 
+  80%{transform: translate(0,0);}
+  100%{transform: translate(0,100px);}
+}
+
+@keyframes rotateT {
+  12.5%{transform: translate(60px, 0);}
+  25%{transform: translate(30px, 0);}
+  50%{transform: translate(30px, 100px);}
+  75%{transform: translate(30px, 0);}
+  100%{transform: translate(0,0);}
+}
+
+.LetterE {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #9DD782;
+  top: 20%; 
+  left: 12.5%;
+  animation: 
+  rotateE 5s linear infinite;
+}
+
+.LetterL {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #FF73B8;
+  top: 20%; 
+  left: 25%;
+  animation: 
+  rotateL 5s linear infinite;
+}
+
+.LetterE2 {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #FFB273;
+  top: 20%; 
+  left: 37.5%;
+  animation: 
+  rotateE 5s linear infinite;
+}
+
+.LetterM {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #9DD782;
+  top: 20%; 
+  left: 50%;
+  animation: 
+  rotateM 5s linear infinite;
+}
+
+.LetterE3 {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #FF95C9;
+  top: 20%; 
+  left: 62.5%;
+  animation: 
+  rotateE 5s linear infinite;
+}
+
+.LetterN {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #FFB273;
+  top: 20%; 
+  left: 75%;
+  animation: 
+  rotateN 5s linear infinite;
+}
+
+.LetterT {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #9DD782;
+  top: 20%; 
+  left: 87.5%;
+  animation: 
+  rotateT 5s linear infinite;
+}
+
+.child {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF95C9;
+  top: 20%;
+  left: 25%;
+  z-index: -1;
+}
+
+.E{
+  top: 20%;
+  left: 12.5%;
+  border-color: #9DD782;
+}
+
+.E2{
+  top: 20%;
+  left: 37.5%;
+  border-color: #FFB273;
+}
+
+.M{
+  top: 20%;
+  left: 50%;
+  border-color: #9DD782;
+}
+
+.E3{
+  top: 20%;
+  left: 62.5%;
+  border-color: #FF95C9;
+}
+
+.N{
+  top: 20%;
+  left: 75%;
+  border-color: #FFB273;
+}
+
+.T{
+  top: 20%;
+  left: 87.5%;
+  border-color: #9DD782;
+}
+
+#E_two { margin-left: 30px;}
+#E_three {margin-left: 30px; margin-top: 50px;}
+#E_four {margin-left: 30px; margin-top: 100px;}
+#E_five {margin-top: 100px;}
+#E_six { margin-top: 50px;}
+#E_seven { margin-left: 60px; }
+#E_eight { margin-top: 100px; margin-left: 60px;}
+
+#L_two {margin-top: 50px;}
+#L_three {margin-left: 30px;margin-top: 100px;}
+#L_four {margin-left: 60px; margin-top: 100px;}
+#L_five {margin-top: 100px;}
+
+#M_two {margin-top: 50px;}
+#M_three {margin-left: 30px;margin-top: 50px;}
+#M_four {margin-left: 60px; margin-top: 50px;}
+#M_five {margin-top: 100px;}
+#M_six {margin-left: 60px;}
+#M_seven {margin-top: 100px; margin-left: 60px;}
+
+#T_two {margin-top: 50px; margin-left: 30px;}
+#T_three {margin-left: 30px;margin-top: 100px;}
+#T_four {margin-left: 60px;}
+#T_five {margin-left: 30px;}
+
+#seconds {
+  font-size: 2em;
+  color: white;
+}
+
+#minutes {
+  font-size: 2em;
+  color: white;
+}
+
+#colon {
+  font-size: 2em;
+  color: white;
+}
+
+#text{
+  font-size: 1em;
+  color: white;
+}
+

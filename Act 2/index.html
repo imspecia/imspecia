@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name ="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+<title>Interactive Elements</title>
+</head>
+
+<link rel="stylesheet" href="element.css">
+<link rel="stylesheet" href="darkmode.css">
+
+<body>
+<!-- Elements animation -->
+  <div class="LetterE"></div>
+  <div class="child E" id="E_one"></div>
+  <div class="child E" id="E_two"></div>
+  <div class="child E" id="E_three"></div>
+  <div class="child E" id="E_four"></div>
+  <div class="child E" id="E_five"></div>
+  <div class="child E" id="E_six"></div>
+  <div class="child E" id="E_seven"></div>
+  <div class="child E" id="E_eight"></div>
+
+  <div class="LetterL"></div>
+  <div class="child" id="L_one"></div>
+  <div class="child" id="L_two"></div>
+  <div class="child" id="L_three"></div>
+  <div class="child" id="L_four"></div>
+  <div class="child" id="L_five"></div>
+
+  <div class="LetterE2"></div>
+  <div class="child E2" id="E_one"></div>
+  <div class="child E2" id="E_two"></div>
+  <div class="child E2" id="E_three"></div>
+  <div class="child E2" id="E_four"></div>
+  <div class="child E2" id="E_five"></div>
+  <div class="child E2" id="E_six"></div>
+  <div class="child E2" id="E_seven"></div>
+  <div class="child E2" id="E_eight"></div>
+
+  <div class="LetterM"></div>
+  <div class="child M" id="M_one"></div>
+  <div class="child M" id="M_two"></div>
+  <div class="child M" id="M_three"></div>
+  <div class="child M" id="M_four"></div>
+  <div class="child M" id="M_five"></div>
+  <div class="child M" id="M_six"></div>
+  <div class="child M" id="M_seven"></div>
+
+  <div class="LetterE3"></div>
+  <div class="child E3" id="E_one"></div>
+  <div class="child E3" id="E_two"></div>
+  <div class="child E3" id="E_three"></div>
+  <div class="child E3" id="E_four"></div>
+  <div class="child E3" id="E_five"></div>
+  <div class="child E3" id="E_six"></div>
+  <div class="child E3" id="E_seven"></div>
+  <div class="child E3" id="E_eight"></div>
+
+  <div class="LetterN"></div>
+  <div class="child N" id="M_one"></div>
+  <div class="child N" id="M_two"></div>
+  <div class="child N" id="M_three"></div>
+  <div class="child N" id="M_four"></div>
+  <div class="child N" id="M_five"></div>
+  <div class="child N" id="M_six"></div>
+  <div class="child N" id="M_seven"></div>
+
+  <div class="LetterT"></div>
+  <div class="child T" id="T_one"></div>
+  <div class="child T" id="T_two"></div>
+  <div class="child T" id="T_three"></div>
+  <div class="child T" id="T_four"></div>
+  <div class="child T" id="T_five"></div>
+
+
+<!-- Time spent on the web -->
+<label id="minutes">00</label>
+<label id="colon">:</label>
+<label id="seconds">00</label>
+<label id="text">Time spent on the web</label>
+    <script type="text/javascript">
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+        setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            ++totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+    </script>
+
+<button onclick="myFunction()" style="">Toggle light mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+
+</body>
+</html>
