@@ -1,3 +1,4 @@
+/*Elements animation*/
 @keyframes rotateE {
   8% {transform: translate(60px, 0);}
   12% {transform: translate(0, 0);}
@@ -250,6 +251,7 @@
 #S_six {margin-left: 60px; margin-top: 70px;}
 #S_seven {margin-top: 70px;}
 
+/*Browser Timer*/
 #seconds {
   font-size: 2em;
   color: #FFB273;
