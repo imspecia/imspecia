@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name ="viewport" content="width=device-width, initial-scale=1">
 
 <head>
@@ -9,9 +10,57 @@
 
 <link rel="stylesheet" href="element.css">
 <link rel="stylesheet" href="darkmode.css">
+<link rel="stylesheet" href="style.css">
 
 <body>
+
+<!-- Time spent on the web -->
+<div class="container-box" style="padding: 20px;">
+<label id="minutes">00</label>
+<label id="colon">:</label>
+<label id="seconds">00</label>
+<label id="text">Time spent on the screen</label>
+    <script type="text/javascript">
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+        setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            ++totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+    </script>
+
+<div class="container-box" style="margin-left: 90%;">
+  <button class="dark" onclick="myFunction()">TOGGLE DARK MODE</button>
+
+  <script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+</script>
+</div>
+</div>
+
 <!-- Elements animation -->
+<div class="container-box">
   <div class="LetterE"></div>
   <div class="child E" id="E_one"></div>
   <div class="child E" id="E_two"></div>
@@ -74,47 +123,43 @@
   <div class="child T" id="T_four"></div>
   <div class="child T" id="T_five"></div>
 
+  <div class="LetterS"></div>
+  <div class="child S" id="S_one"></div>
+  <div class="child S" id="S_two"></div>
+  <div class="child S" id="S_three"></div>
+  <div class="child S" id="S_four"></div>
+  <div class="child S" id="S_five"></div>
+  <div class="child S" id="S_six"></div>
+  <div class="child S" id="S_seven"></div>
+</div>
 
-<!-- Time spent on the web -->
-<label id="minutes">00</label>
-<label id="colon">:</label>
-<label id="seconds">00</label>
-<label id="text">Time spent on the web</label>
-    <script type="text/javascript">
-        var minutesLabel = document.getElementById("minutes");
-        var secondsLabel = document.getElementById("seconds");
-        var totalSeconds = 0;
-        setInterval(setTime, 1000);
+<div class="container-box" style="text-align: center; color: white; margin-top: 400px">
+   <h1 id="heading">˅ Scroll Down ˅</h1>
+</div>
 
-        function setTime()
-        {
-            ++totalSeconds;
-            secondsLabel.innerHTML = pad(totalSeconds%60);
-            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
-        }
+<div class="container-box" style=" font-family: 'Montserrat', sans-serif; background: #4776E6; background: -webkit-linear-gradient(to right, #9DD782,#FF73B8, #FFB273);   background: linear-gradient(to right, #9DD782, #FF73B8, #FFB273); display: flex; justify-content: center; align-items: center; height: 100vh; ">
+  <div class="container">
+    <h1 id="heading">Countdown Timer</h1>
+    <h5>[reload page to reset timer]</h5>
+    <div class="input">
+      <label for="">Enter Date</label>
+      <input type="date" id="user-date">
+    </div>
+    <div class="button1">
+      <button class="btn" id="btn">Submit</button>
+    </div>
+    <div class="output">
+      <div class="time-labels">
+        <p>Days</p>
+        <p>Hours</p>
+        <p>Mins</p>
+        <p>Secs</p>
+      </div>
+      <p id="output"></p>
+    </div>
+  </div>
 
-        function pad(val)
-        {
-            var valString = val + "";
-            if(valString.length < 2)
-            {
-                return "0" + valString;
-            }
-            else
-            {
-                return valString;
-            }
-        }
-    </script>
-
-<button onclick="myFunction()" style="">Toggle light mode</button>
-
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("light-mode");
-}
-</script>
-
+  <script src="app.js"></script>
+</div>
 </body>
 </html>

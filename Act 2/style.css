@@ -7,17 +7,6 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background: #4776E6; 
-  background: -webkit-linear-gradient(to right, #8E54E9, #4776E6); 
-  background: linear-gradient(to right, #8E54E9, #4776E6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 /* Button */
 .btn {
   background-color: #333;
@@ -65,7 +54,7 @@ body {
 }
 
 .container .input,
-.container .button,
+.container .button1,
 .container .output {
   margin: 2rem 0;
 }

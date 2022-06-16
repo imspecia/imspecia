@@ -1,30 +1,54 @@
 body {
-  padding: 25px;
+  background-color: slategrey;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dark-mode {
   background-color: #453A36;
+}
+
+.dark-mode #seconds {
+  font-size: 2em;
   color: white;
-  font-size: 25px;
 }
 
-.light-mode {
-  background-color: whitesmoke;
-}
-
-.light-mode #seconds {
+.dark-mode #minutes {
   font-size: 2em;
-  color: black;
+  color: white;
 }
 
-.light-mode #minutes {
+.dark-mode #colon {
   font-size: 2em;
-  color: black;
+  color: white;
 }
 
-.light-mode #colon {
-  font-size: 2em;
-  color: black;
-}
-
-.light-mode #text {
+.dark-mode #text {
   font-size: 1em;
-  color: black;
+  color: white;
+}
+
+.dark {
+  background-color: #9DD782; 
+  padding: 10px; 
+  color: #453A36; 
+  border: none; 
+  left: 90%;
+}
+
+.dark:hover {
+  background-color: slategrey; 
+  border: none; 
+  color: white; 
+}
+
+.dark-mode .dark{
+  background-color: #453A36; 
+  border: none; 
+  color: white;   
+}
+
+.dark-mode .dark:hover{
+  background-color: #FFB273; 
+  color: #453A36; 
+  border: none; 
 }
