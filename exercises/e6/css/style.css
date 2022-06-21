@@ -1,0 +1,304 @@
+/* UI Style Guide */
+
+/* Add spacing below header tags */
+h1 {
+	margin-bottom: 24px;
+	font-size: 48px;
+} 
+
+h2 {
+	margin-bottom: 24px;
+	font-size: 34px;
+} 
+
+h3 {
+	margin-bottom: 24px;
+	font-size: 24px;
+}
+
+/* Style div as circle */
+.ui-color {
+	width:  100px;
+	height:  90px;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+}
+
+.ui-gradient {
+	width:  200px;
+	height:  90px;
+	border-top-right-radius: 5%;
+	border-top-left-radius: 5%;
+}
+
+/* Position hexcode centre to circle color */
+.ui-colors-hexcode {
+	text-align: center;
+	margin-top: 12px;
+}
+
+/* Display colors next to one another and add spacing to the right side */
+.ui-colors-primary div, .ui-colors-secondary div {
+	display:  inline-block;
+	padding-right: 15px;
+}
+
+/* Remove padding on last color element */
+.ui-colors-primary div:last-child, .ui-colors-secondary div:last-child {
+	padding-right: 0;
+}
+
+/* UI Primary Colors */
+.ui-colors-primary-peach {
+	background-color: #FFCDB2;
+}
+
+.ui-colors-primary-pink {
+	background-color: #E5989B;
+}
+
+.ui-colors-primary-pale {
+	background-color: #FDE8C9;
+}
+
+.ui-colors-primary-purple {
+	background-color: #6d6875;
+}
+
+.ui-colors-primary-dullpink {
+	background-color: #B5838D;
+}
+
+.ui-colors-primary-orange {
+	background-color: #FFB4A2;
+}
+
+/* UI Secondary Colors */
+.ui-colors-secondary-lilac {
+	background-color: #A890FE;
+}
+
+.ui-colors-secondary-blush {
+	background-color: #EA8D8D;
+}
+
+.ui-colors-secondary-lavender {
+	background-color: #CDB4DB;
+}
+
+/* UI Tertiary Colors */
+.ui-colors-tertiary-green {
+	background-color: #D8E2DC;
+}
+
+.ui-colors-tertiary-sand {
+	background-color: #ECE4DB;
+}
+
+.ui-colors-tertiary-cream {
+	background-color: #FFE5D9;
+}
+
+.ui-colors-tertiary-yellow {
+	background-color: #FFD7BA;
+}
+
+.ui-colors-tertiary-mandarin {
+	background-color: #FEC89A;
+}
+
+/* UI Gradient Colors */
+.ui-gradient-purple {
+	background-image: linear-gradient(to right, #EA8D8D , #A890FE);
+}
+
+.ui-gradient-sunset {
+	background-image: linear-gradient(to right, #D74177 , #FFE98A);
+}
+
+/* UI Primary Colors white background*/
+.ui-white {
+	background-color: white;
+	width:  100px;
+	height:  130px;
+	border-radius:  10%;
+	margin-bottom: 10px;
+}
+
+.ui-white-gradient {
+	background-color: white;
+	width:  200px;
+	height:  130px;
+	border-radius:  5%;
+	margin-bottom: 10px;
+}
+
+::placeholder { /* Change placeholder text */
+  color: white;
+  opacity:  0.5;
+}
+
+/* Buttons and interactions */
+.ui-button {
+  border:  none;
+  /* Measurement Shorthand Top Right Bottom Left */
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.ui-button.hover {
+  color: white;
+  background-color:  black;
+}
+
+.ui-button.interactive {
+  transition:  all .25s;
+}
+
+.ui-button.interactive:hover {
+  color: white;
+  background-color:  black;
+}
+
+.ui-button.interactive:active, .ui-button.interactive:focus {
+  outline: 0 !important;
+  border:  5px solid #A890FE !important;
+}
+
+.ui-input {
+  border-radius: 0;
+  background:  transparent;
+  padding: 10px 15px 10px 15px;
+  border:  2px solid white;
+  color:  white;
+}
+
+.ui-button.secondary {
+  background-color: black;
+  color:  white;
+  border: 2px solid black;
+  margin-left: 5px;
+}
+
+.active { /* Active State for Form */
+  border:  5px solid #A890FE;
+}
+
+.col-4 {
+	float: left;
+	padding-right: 100px;
+	margin-bottom: 30px;
+}
+
+.error {
+	border-color: #7C3E66;
+	color: #7C3E66;
+	opacity: 0.7;
+}
+
+.correct {
+	border-color: #386641;
+	color: #386641;
+	opacity: 0.7;
+}
+
+.error-message {
+  color: #7C3E66;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.success-message {
+  color: #386641;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Place input and button next to one another for short form */
+.short-form input, .short-form button {
+  float: left;
+  padding-right: 100px;
+}
+
+/* Text Links */
+.text {
+	float: left;
+	padding-right: 100px;
+	margin-top: 30px;
+}
+
+/* unvisited link */
+.text a:link {
+  color: white;
+}
+
+/* visited link */
+.text a:visited {
+  color: white;
+}
+
+/* mouse over link */
+.text a:hover {
+  color: white;
+}
+
+/* unvisited link */
+.text2 a:link {
+  color: white;
+}
+
+/* visited link */
+.text2 a:visited {
+  color: white;
+}
+
+/* mouse over link */
+.text2 a:hover {
+  color: #A890FE;
+}
+
+/* unvisited link */
+.text3 a:link {
+  color: black;
+  background-color: #A890FE;
+}
+
+/* visited link */
+.text3 a:visited {
+  color: black;
+  background-color: #A890FE;
+}
+
+/* mouse over link */
+.text3 a:hover {
+  color: black;
+  background-color: #EA8D8D;
+}
+
+.text4 a:link {
+	color:white;
+	text-decoration:none;
+}
+
+.text4 a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+.text4 a:hover {
+	text-decoration:underline;
+}
+
+.text5 a:link {
+	color:white;
+}
+
+.text5 a:visited {
+	color:white;
+}
+
+.text5 a:hover {
+	font-size:150%;
+}

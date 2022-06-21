@@ -1,0 +1,73 @@
+/* Override default browser spacing */
+
+* {
+	padding: 0; margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #ECE9EF;
+}
+
+/* Defining a 12 column grid system */
+
+.grid {
+	display:  grid;
+	width:  100%;
+	height:  600px;
+	grid-template-columns:  repeat(12,1fr);
+	grid-column-gap: 48px;
+	margin-bottom:  120px;
+}
+
+
+/* Series of column classes to tell HTML element how many columns to span */
+
+.col-1 {
+	grid-column:  span 1;
+}
+
+.col-2 {
+	grid-column:  span 2;
+}
+
+.col-3 {
+	grid-column:  span 3;
+}
+
+.col-4 {
+	grid-column:  span 4;
+}
+
+.col-6 {
+	grid-column:  span 6;
+}
+
+.col-12 {
+	grid-column:  span 12;
+}
+
+.form-container {
+	max-width: 100%;
+	color:  black;
+	justify-content: center; 
+	align-items: center; 
+	margin: 100px 200px 0px 200px;
+}
+
+.row {
+  margin-bottom: 40px;
+}
+
+.btn {
+	float: left;
+	padding-right: 100px;
+}
+
+.element-container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: 10px 200px 0px 200px;
+}
+
