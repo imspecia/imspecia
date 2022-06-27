@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #fbccb7, #efaac9, #ccb6d9, #a2c8ed);
+  font-family: Verdana, sans-serif;
+
+}
+
+h2{
+  color: slateblue;
+}
+
+.header {
+  text-align: center;
+  font-size: 35px;
+  margin-left: 100px;
+}
+
+/** container to make two columns **/
+.column{
+  float: left;
+  width: 50%;
+  padding: 100px;
+}
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+/** general button css for links **/
+
+.button {
+  background-color: slateblue;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+
+.button:hover {
+  background-color: #c2bbe9;
+  font-family: Verdana, sans-serif;
+
+}
+
+/** BTS Logo **/
+
+.bangtan {
+  padding-top: 3rem;
+  display: flex;
+  width: 15vw;
+  height: 90vh;
+  position: relative;
+}
+
+/** "WELCOME TO THE WORLD OF BTS" Styling text **/
+
+.text {
+  text-align: left;
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-size: 60px;
+  font-color: black;
+  padding-right: 50%;
+  position: absolute;
+  top: 27%;
+  left: 24.4%;
+  font-family: "Teko", sans-serif;
+  margin-left: 14px;
+}

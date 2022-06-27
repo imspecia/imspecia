@@ -1,0 +1,96 @@
+/* CSS file for making grids */
+@charset "UTF-8";
+
+/*h1{
+	font-size: 100px;
+}*/
+
+.grid {
+	border: 1px solid black;
+	display: grid;
+	width: 320px;
+	height: 200px;
+	grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+	margin: 10px;
+}
+
+
+.grid-item-black {
+	background-color: black;
+}
+
+.grid-item-yellow {
+	background-color: #FAD049;
+}
+
+.grid-item-swblue {
+	background-color: #2066A0;
+}
+
+.grid-item-red {
+	background-color: #ED3833;
+}
+
+.grid-item-lightblue{
+	background-color: #2474BC;
+}
+
+.grid-finland {
+	border: 1px solid black;
+	display: grid;
+	width: 360px;
+	height: 260px;
+	grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+	margin: 10px;
+}
+
+.grid-denmark {
+	border: 1px solid black;
+	display: grid;
+	width: 340px;
+	height: 280px;
+	grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px ;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px ;
+	margin: 10px;
+}
+
+.grid-iceland {
+	border: 1px solid black;
+	display: grid;
+	width: 500px;
+	height: 360px;
+	grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+	margin: 10px;
+}
+
+.grid-koiland {
+	border: 1px solid black;
+	display: grid;
+	width: 400px;
+	height: 350px;
+	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+	grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+	margin: 10px;
+}
+
+.grid-item-koiblue {
+	background-color: #93ABD3;
+}
+
+.grid-item-koiorange {
+	background-color: #FADCAA;
+}
+
+.grid-item-darkorange {
+	background-color: #FF9642;
+}
+
+.grid-item-koigrey {
+	background-color: #646464;
+}
+
+
+

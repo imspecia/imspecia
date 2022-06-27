@@ -43,3 +43,11 @@ button {
     }
 
 }
+
+section a{
+    color: #6D6875;
+}
+
+#acc3 h3 a:hover{
+    color: #CDB4DB;
+}
