@@ -1,3 +1,4 @@
+/*CSS Stylesheet for accordion effect*/
 article.accordion
 {
 	display: block;
@@ -51,7 +52,7 @@ article.accordion section h2 a
 }
 article.accordion section:target
 {
-	width: 55vw;
+	width: 50vw;
 	padding: 0 1em;
 	color: #333;
 	background-color: #fff;
