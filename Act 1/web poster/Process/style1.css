@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body{
+	background-color: white;
+}
+
+h1{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 600;
+	font-size: 100px;
+/*	color: cadetblue;*/
+}
+
+h2{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-size: 60px;
+/*	color: yellowgreen;*/
+}
+
+h3{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 300;
+	font-size: 50px;
+/*	color: lightyellow;*/
+}
+
+h4{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-size: 40px;
+/*	color: forestgreen;*/
+}
+
+h5{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 300;
+	font-size: 30px;
+	/*color: lightgreen;*/
+}
+
+.grid {
+	display: grid;
+	width: 70px;
+	height: 50px;
+	grid-template-columns: repeat(5,15px);
+	grid-template-rows: repeat(7,15px);
+	margin: 10px;
+	position: relative;
+	float: left;
+	padding-top: 50px;
+}
+
+.grid-item {
+	background-color: #455EDC;
+}
+
+.grid-item-black {
+	background-color: #000957;
+}
+
+.grid-item-black:hover{
+	background-color: #243E72;
+}
+
+.grid-item:hover{
+	background-color: #EBE645;
+}
+.space {
+	display: grid;
+	width: 50px;
+	height: 100px;
+	grid-template-columns: repeat(5,5px);
+	grid-template-rows: repeat(7,5px);
+	margin: 10px;
+	position: relative;
+	float: left;
+}
+
+.float-container-1{
+	width: 1500px;
+	height: 1000px;
+	display: inline-block;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 8%;
+	margin-right: 10%;
+	padding-bottom: 50px;
+
