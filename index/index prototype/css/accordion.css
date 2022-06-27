@@ -1,0 +1,80 @@
+article.accordion
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	background-color: #CDB4DB;
+	border-radius: 5px;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+article.accordion section
+{
+	position: relative;
+	float: left;
+	width: 4vw;
+	height: 90vh;
+	margin: 2em 1em 1em 0.5em;
+	color: #6D6875;
+	background-color: #6D6875;
+	overflow: hidden;
+	border-radius: 3px;
+}
+article.accordion section h2
+{
+	position: absolute;
+	font-size: 2vw;
+	font-weight: bold;
+	width: 20em;
+	top: 15em;
+	padding: 0;
+	color: #ddd;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+article.accordion section h2 a
+{
+	display: block;
+	width: 100%;
+	line-height: 2em;
+	text-decoration: none;
+	color: inherit;
+	outline: 0 none;
+}
+article.accordion section:target
+{
+	width: 55vw;
+	padding: 0 1em;
+	color: #333;
+	background-color: #fff;
+	overflow-y: scroll;
+}
+article.accordion section:target h2
+{
+	position: static;
+	font-size: 3em;
+	text-indent: 0;
+	color: #333;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+article.accordion section,
+article.accordion section h2
+{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}

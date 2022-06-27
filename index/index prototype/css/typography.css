@@ -12,6 +12,7 @@ body {
     font-size: 14px;
     font-family: 'Quicksand';
     font-weight: 300;
+    background-color: #CDB4DB;
 }
 
 p {
@@ -19,28 +20,14 @@ p {
     line-height: 24px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 button {
     font-size: 12px;
 }
 
-nav button {
-    font-size: 16px;
-}
-
-.language-toggle {
-    font-size: 12px;
-}
-
-.introduction p {
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.point,
-.email,
-.links {
-    font-size: 16px;
-}
 
 @media (min-width: 1025px) {
     body {
@@ -55,37 +42,4 @@ nav button {
         font-size: 12px;
     }
 
-    .section-header {
-        font-size: 14px;
-    }
-    .section-header .number {
-        font-weight: bold;
-    }
-
-    #third .introduction p,
-    #fifth .introduction p {
-        font-size: 28px;
-    }
-
-    .point-header {
-        font-size: 24px;
-    }
-
-    .email {
-        font-size: 24px;
-    }
-
-    .links {
-        font-size: 20px;
-    }
-
-    .point-number,
-    .point-title {
-        font-size: 24px;
-    }
-
-    .point-content li {
-        font-size: 16px;
-        line-height: 19px;
-    }
 }
