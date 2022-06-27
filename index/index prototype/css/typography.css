@@ -51,3 +51,12 @@ section a{
 #acc3 h3 a:hover{
     color: #CDB4DB;
 }
+
+#acc4 h3 a:hover{
+    color: #CDB4DB;
+}
+
+#acc5 h3 a:hover{
+    color: #CDB4DB;
+    text-decoration: none;
+}
