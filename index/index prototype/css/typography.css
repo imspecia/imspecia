@@ -1,27 +1,17 @@
 @font-face {
-    font-family: 'GT Cinetype';
-    src: url('../fonts/GT-Cinetype-Bold.woff') format('woff'),
-        url('../fonts/GT-Cinetype-Bold.woff2') format('woff2');
+    font-family: 'Quicksand';
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'GT Cinetype';
-    src: url('../fonts/GT-Cinetype-Regular.woff') format('woff'),
-        url('../fonts/GT-Cinetype-Regular.woff2') format('woff2');
+    font-family: 'Quicksand';
     font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
 }
 
 body {
     font-size: 14px;
-    font-family: 'GT Cinetype';
+    font-family: 'Quicksand';
     font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
 }
 
 p {

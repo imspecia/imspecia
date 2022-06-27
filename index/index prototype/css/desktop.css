@@ -14,13 +14,13 @@
 
     .logo {
         height: 33px;
-        width: 33px;
+        width: 40px;
         margin: auto;
     }
 
     nav {
         display: none;
-    }
+    }S
 
     .home-prompt {
         position: absolute;
@@ -59,7 +59,7 @@
     }
 
     .language-toggle a.is-active:after {
-        background-color: ##CDB4DB;
+        background-color: #CDB4DB;
         border-radius: 6px;
         content: '';
         position: absolute;
@@ -91,7 +91,7 @@
         width: calc(100vw - 6 * 80px);
         padding-top: 0;
         transform: translateX(100%);
-        background: #000;
+        background: #CDB4DB;
     }
 
     #first {
@@ -123,7 +123,7 @@
         width: 80px;
         cursor: pointer;
         box-sizing: border-box;
-        background: #000;
+        background: #CDB4DB;
         border-left: 1px solid #ffffff;
     }
 
